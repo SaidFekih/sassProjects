@@ -1,0 +1,118 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+body {
+  background: black;
+  font-family: sans-serif;
+  margin: 5rem;
+}
+
+.titre {
+  font-size: 25px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+p {
+  margin: 1rem;
+  color: white;
+  font-size: 15px;
+}
+
+div {
+  width: 50%;
+  margin: 20px auto;
+  background: honeydew;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+}
+.table td {
+  border: solid 1px #ccc;
+}
+.table thead {
+  background: black;
+  color: #fff;
+}
+
+.theme-vert {
+  border: solid 2px gray;
+  background: #cfc9c9;
+}
+
+.btn, .call-to-action {
+  background: #3232e9;
+  text-decoration: none;
+  color: wheat;
+  font-size: 20px;
+  padding: 5px 35px;
+  border-radius: 3px;
+}
+.theme-vert .btn, .theme-vert .call-to-action {
+  background: #6861ca;
+  color: #cfc9c9;
+  display: block;
+  width: 7rem;
+  text-align: center;
+  padding: 5px 0px;
+}
+.theme-vert .btn:hover, .theme-vert .call-to-action:hover {
+  background: #3c2fee;
+}
+.btn:hover, .call-to-action:hover {
+  background: #1919c7;
+}
+
+.call-to-action {
+  background-color: yellowgreen;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
